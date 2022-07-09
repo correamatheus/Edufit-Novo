@@ -1,0 +1,90 @@
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .principal{
+    background-color: #F5F7FF;
+    height: 100vh;
+  }
+  
+  .perfil{
+    border-radius: 20px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    background-color: #fff;
+  }
+  
+  .dados-pessoais{
+    border-right: 1px solid #e5e5e5;
+    height: 80vh;
+  }
+  
+  .dados-pessoais__titulo{
+    font-weight: bold;
+  }
+  
+  .foto-perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #7F97A2;
+  }
+  
+  .nome-aluno{
+    font-size: 24px;
+    color: #ffc107;
+    font-weight: 700;
+  }
+  
+  .email-aluno{
+    font-size: .80rem;
+  }
+  
+  .perfil__titulo--senha{
+    margin-top: 132px;
+    font-weight: bold;
+  }
+  
+  
+  
+  .botao__trocarSenha{
+    background-color: #ffc107;
+    border: #7F97A2;
+    font-weight: 700;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .form__dados-pessoais{
+      margin-top: 2rem;
+    }
+  
+    .perfil__titulo--senha{
+      margin-top: 2rem;
+    }
+  
+    .dados-pessoais{
+      border-right: none;
+      height: auto;
+    }
+  
+    .principal{
+      height: 100%;
+    }
+  
+    .tamanho{
+      width: 100% !important;
+    }
+  
+    .sobrenome{
+      margin-top: 1rem;
+    }
+  
+    .perfil{
+      padding: 0;
+      padding-top: 1rem;
+      width: auto;
+    }
+  }
+  

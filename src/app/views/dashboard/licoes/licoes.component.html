@@ -1,0 +1,144 @@
+<app-cabecalho></app-cabecalho>
+<div class="container mt-3 ">
+  <div class="question-map container">
+    <div class="question-navegation d-flex flex-row">
+      <div class="question-formatacao question-estilo d-flex questao-certa">
+        <span>1</span>
+      </div>
+      <div class="question-formatacao question-estilo d-flex questao-errada">
+        <span>2</span>
+      </div>
+      <div class="question-formatacao question-estilo d-flex questao-atual">
+        <span>3</span>
+      </div>
+      <div class="question-formatacao question-estilo d-flex questao-restante">
+        <span>4</span>
+      </div>
+      <div class="question-formatacao question-estilo d-flex questao-restante">
+        <span>5</span>
+      </div>
+      <div class="question-formatacao question-estilo d-flex questao-restante">
+        <span>6</span>
+      </div>
+    </div>
+    <div class="barra-conexao"></div>
+  </div>
+
+  <!-- MODELO EM VIDEO -->
+  <div class="container mt-5 mb-4" *ngIf="numeroExercicio == 1">
+    <h3>Exercícios</h3>
+    <p>Hora de praticar</p>
+    <hr class="video-linha" />
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/xrQl9D2jVw4"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <hr class="video-linha" />
+    <div>
+      <span class="mt-5 titulo-atividade">Atividade 01 : </span
+      ><span>Assista o vídeo com atenção.</span>
+    </div>
+    
+  </div>
+
+  <!-- MODELO PADRAO DE QUESTOES -->
+  <div class="container mt-5" *ngIf="numeroExercicio == 2">
+    <h3>Exercícios</h3>
+    <p>Hora de praticar</p>
+    <hr class="video-linha" />
+
+    <div>
+      <span class="mt-5 titulo-atividade">Atividade 01 : </span
+      ><span>Marque a alternativa correta</span>
+    </div>
+
+    <div>
+      <ul class="list-group mt-3">
+        <li class="list-group-item list-group-item-action mb-2">
+          <div class="d-flex">
+            <input
+              class="form-check-input radio-questao"
+              type="radio"
+              name="flexRadioDefault"
+            />
+            <div>Opção A</div>
+          </div>
+        </li>
+        <li class="list-group-item list-group-item-action mb-2">
+          <div class="d-flex">
+            <input
+              class="form-check-input radio-questao"
+              type="radio"
+              name="flexRadioDefault"
+            />
+            <div>Opção B</div>
+          </div>
+        </li>
+        <li class="list-group-item list-group-item-action mb-2">
+          <div class="d-flex">
+            <input
+              class="form-check-input radio-questao"
+              type="radio"
+              name="flexRadioDefault"
+            />
+            <div>Opção C</div>
+          </div>
+        </li>
+        <li class="list-group-item list-group-item-action mb-2">
+          <div class="d-flex">
+            <input
+              class="form-check-input radio-questao"
+              type="radio"
+              name="flexRadioDefault"
+            />
+            <div>Opção D</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- MODELO DE ANEXAR ARQUIVOS -->
+  <div class="container mt-5 mb-4" *ngIf="numeroExercicio == 3">
+    <h3>Exercícios</h3>
+    <p>Hora de praticar</p>
+    <hr class="video-linha" />
+
+    <div>
+      <span class="mt-5 titulo-atividade">Atividade 01 : </span
+      ><span>Anexe um arquivo</span>
+      <p class="mt-4 w-80">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptate
+        quod laudantium exercitationem voluptatem reiciendis quasi, eveniet quo
+        aperiam magni repellat. Odio natus expedita debitis magnam explicabo,
+        assumenda dolor earum!
+      </p>
+    </div>
+
+     <div>
+      <input type="file" class="form-control-file anexar" id="anexar" />
+    </div>
+  </div>
+
+  <!-- FIM DAS ATIVIDADES -->
+  <div class="container mt-5 mb-4" *ngIf="numeroExercicio == 4">
+    <h3>Exercícios</h3>
+    <p>Hora de praticar</p>
+    <hr class="video-linha" />
+
+    <div>
+      <span class="mt-5 titulo-atividade">Fim das Atividades !</span>
+      <p class="mt-4">Deseja finalizar todas as tarefas ?</p>
+    </div>
+  </div>
+
+</div>
+<div class="container-fluid d-flex footer-controle">
+  <p class="voltar-estilo btn-estilo" (click)="voltarExercicio()">Voltar</p>
+  <p class="proxima-estilo btn-estilo" (click)="avancarExercicio()">Próxima</p>
+</div>

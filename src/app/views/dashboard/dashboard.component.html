@@ -1,0 +1,79 @@
+<app-cabecalho></app-cabecalho>
+<div class="container">
+  <div class="row mt-3">
+    <div class="col-sm-12">
+      <div class="card card-banner">
+        <div class="card-body">
+          <div class="row">
+            <div class="container-fluid mt-4 col-12 col-md-6">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2 pesquisar" type="search" placeholder="Pesquise o conteúdo..." aria-label="Search">
+                <button class="btn btn-outline-success search-button" type="submit"><fa-icon [icon]="faMagnifyingGlass"></fa-icon
+                  ></button>
+              </form>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="dropdown ">
+                <button class="btn btn-secondary dropdown-toggle dropdown-dashboard-button" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Disciplinas
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row mt-5">
+    <div class="col-6 principal">
+      <div class="card card-dashboard" >
+        <ul class="list-group card-dashboard-list-group list-group-flush">
+          <li class="list-group-item card-dashboard-list-group-item"><span><img src="../../../assets/learning.png" style="opacity: 0.40;"></span> </li>
+          <li class="list-group-item card-dashboard-list-group-item list-group-item-title mt-4">Citologia 1.1</li>
+          <li class="list-group-item card-dashboard-list-group-item list-group-item-text"><button routerLink="/licoes" class="btn btn-primary card-dashboard-button">10 lições</button></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="col-6 principal">
+      <div class="card card-dashboard-second" >
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item card-dashboard-list-group-item-second"><span><img src="../../../assets/case-study.png " style="opacity: 0.40;"></span></li>
+          <li class="list-group-item card-dashboard-list-group-item-second list-group-item-title mt-4">Citologia 1.2</li>
+          <li class="list-group-item card-dashboard-list-group-item-second list-group-item-text"><button class="btn btn-primary card-dashboard-button">15 lições</button></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="col-6 mt-4 principal">
+      <div class="card card-dashboard-third" >
+        <ul class="list-group card-dashboard-list-group list-group-flush">
+          <li class="list-group-item card-dashboard-list-group-item-third"><span><img src="../../../assets/mortarboard.png" style="opacity: 0.40;"></span> </li>
+          <li class="list-group-item card-dashboard-list-group-item-third list-group-item-title mt-4">Citologia 1.3</li>
+          <li class="list-group-item card-dashboard-list-group-item-third list-´group-item-text"><button class="btn btn-primary card-dashboard-button">10 lições</button></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="col-6 mt-4 principal">
+      <div class="card card-dashboard-forthy" >
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item card-dashboard-list-group-item-forthy"><span><img src="../../../assets/notebook.png" style="opacity: 0.40;"></span></li>
+          <li class="list-group-item card-dashboard-list-group-item-forthy list-group-item-title mt-4">Citologia 1.4</li>
+          <li class="list-group-item card-dashboard-list-group-item-forthy list-group-item-text"><button class="btn btn-primary card-dashboard-button">20 lições</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

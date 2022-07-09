@@ -1,0 +1,157 @@
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  .card-banner{
+    border-radius: 15px;
+    /* background-image: url('../../../assets/banner-opacidade.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .card-banner-title{
+    /* color: #fff; */
+    font-weight: 800;
+  }
+  .card-banner-text{
+    /* color: #fff; */
+    font-weight: 600;
+  }
+  
+  .card-banner-button{
+    background-color: #fff;
+    border: #fff;
+    border-radius: 25px;
+    color: #655D8A;
+    /* color: #c9c9c9; */
+    font-weight: 700;
+  }
+  
+  .card-dashboard{
+    border-radius: 15px;
+    border: none;
+      /* box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.075); */
+  }
+  
+  .card-dashboard-list-group-item{
+    border: none;
+    /* background-color: rgba(101, 93, 138, 0.007) !important; */
+    background-color: #fdf9c4;
+    border-radius: 15px;
+  }
+  
+  .card-dashboard-list-group-item-second {
+    /* background-color:rgba(216, 133, 163, 0); */
+    background-color: #fdf9c4;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .card-dashboard-list-group-item-third{
+    border: none;
+    border-radius: 15px;
+    background-color:rgba(216, 133, 163, 0);
+  }
+  
+  .card-dashboard-list-group-item-forthy{
+    border: none;
+    border-radius: 15px;
+    background-color:rgba(216, 133, 163, 0);
+  }
+  
+  
+  .list-group-item-text{
+    color: #c9c9c9;
+    font-size: .80rem;
+    font-weight: 600;
+  }
+  
+  .list-group-item-title{
+    color: #979897;
+    font-weight: 800;
+  }
+  
+  .card-dashboard:nth-child(odd){
+    background-color: #fdf9c4 !important;
+  }
+  
+  .card-dashboard-second{
+    background-color:#fdf9c4 !important;
+    border-radius: 15px;
+    border: none;
+    /* -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.089);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.075); */
+  }
+  
+  .card-dashboard-third{
+    background-color:#ffda9e !important;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  .card-dashboard-forthy{
+    background-color:#ffda9e !important;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  .card-dashboard-button{
+    background-color: #fff;
+    border: #fff;
+    width: 100%;
+    border-radius: 25px;
+    color: #bdbebd;
+    font-weight: 700;
+  }
+  
+  .card-dashboard-badge{
+    background-color: #655D8A;
+    padding: 10px;
+  }
+  
+  .search-button{
+    background-color: #ffc107;
+    border-color: #ffc107!important;
+    color: #fff;
+  }
+  
+  .search-button:hover{
+    /* background-color: #655D8A; */
+    background-color: #fff;
+    color: #ffc107;
+  }
+  
+  .dropdown-dashboard-button{
+  width: 100%;
+  margin-top: 20px;
+  background-color: #ffc107 !important;
+  border: #ffc107;
+  }
+  
+  .principal{
+    background-image: ('../../../assets/fundo background/christopher-machicoane-hurtaud-ewZkOqjl2Ys-unsplash.jpg');
+  }
+  
+  @media screen and (min-width:768px) {
+  
+  
+    .dropdown-dashboard-button{
+      width: 100%;
+      margin-top: 25px;
+      background-color: #655D8A;
+      }
+  
+  }
+  
+  
+  @media screen and (max-width:320px) {
+    .principal{
+      width: 100%;
+      text-align: center;
+      margin-top: 0 !important;
+      margin-bottom: 1em;
+    }
+  
+  }
+  
