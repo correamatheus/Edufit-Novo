@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {  faSquareCheck, faThumbsUp, faVideo, faFloppyDisk } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-gabarito',
@@ -6,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gabarito.component.css']
 })
 export class GabaritoComponent implements OnInit {
+
+  faSquareCheck = faSquareCheck
+  faThumbsUp = faThumbsUp
+  faVideo = faVideo
+  faFloppyDisk = faFloppyDisk
 
   constructor() { }
 
