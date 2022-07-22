@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './views/dashboard/dashboard.component';
 import { LicoesComponent } from './views/dashboard/licoes/licoes.component';
 import { EstatisticasComponent } from './views/estatisticas/estatisticas.component';
+import { GabaritoComponent } from './views/gabarito/gabarito.component';
 import { LoginComponent } from './views/login/login.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
 
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: 'dashboard', component: DashboardComponent},
   {path: 'licoes', component: LicoesComponent},
   {path: 'estatisticas', component: EstatisticasComponent},
-  {path: 'perfil', component: PerfilComponent}
+  {path: 'perfil', component: PerfilComponent},
+  {path: 'gabarito', component: GabaritoComponent}
 ];
 
 @NgModule({

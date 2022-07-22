@@ -11,6 +11,7 @@ import { CabecalhoComponent } from './views/cabecalho/cabecalho.component';
 import { LicoesComponent } from './views/dashboard/licoes/licoes.component';
 import { EstatisticasComponent } from './views/estatisticas/estatisticas.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
+import { GabaritoComponent } from './views/gabarito/gabarito.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PerfilComponent } from './views/perfil/perfil.component';
     CabecalhoComponent,
     LicoesComponent,
     EstatisticasComponent,
-    PerfilComponent
+    PerfilComponent,
+    GabaritoComponent
   ],
   imports: [
     BrowserModule,
